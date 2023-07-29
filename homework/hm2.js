@@ -1,5 +1,5 @@
 // console.log('---2.1-OK--');
-// const draw2= function(n){
+// const draw1= function(n){
 //   let text = "";
 //   for (let i = 0; i < n ; i++) {
 //     for (let j = 0; j < n ; j++) {
@@ -14,12 +14,12 @@
 //   console.log(text);
 // }
 
-// draw2(2);
-// draw2(3);
-// draw2(4);
+// draw1(2);
+// draw1(3);
+// draw1(4);
 
 // console.log('---2.2-OK--');
-// const draw = function(n) {
+// const draw2 = function(n) {
 //     let text = "";
 //   for (let i = 0; i < n; i++) {
 //     for (let j = 0; j < n ; j++) {
@@ -34,12 +34,12 @@
 //     console.log(text);
 //   };
 
-//   draw(2);
-//   draw(3);
-//   draw(4);
+//   draw2(2);
+//   draw2(3);
+//   draw2(4);
 
 // console.log('---2.3-OK--');
-// const draw= function(n){
+// const draw3 = function(n){
 //   let text = "";
 //   for (let i = 0; i < n -1 ; i++) {
 //     for (let j = 0; j < n ; j++) {
@@ -63,12 +63,12 @@
 //       }
 //         console.log(text);
 //       };
-// draw(2);
-// draw(3);
-// draw(4);
+// draw3(2);
+// draw3(3);
+// draw3(4);
 
 // console.log("----2.4-OK---");
-// const draw = function (n) {
+// const draw4 = function (n) {
 //     // debugger;
 //   let text = "";
 //   for (let i = 0; i < n; i++) {
@@ -93,12 +93,12 @@
 //   }
 //   console.log(text);
 // };
-// draw(2);
-// draw(3);
-// draw(4);
+// draw4(2);
+// draw4(3);
+// draw4(4);
 
 // console.log('---2.5-OK---');
-// const draw = function (n) {
+// const draw5 = function (n) {
 //     let text = "";
 //     for (let i = 0; i < n; i++) {
 //       for (let j = 0; j < n; j++) {
@@ -113,12 +113,12 @@
 //     console.log(text);
 //   };
 
-//   draw(2);
-//   draw(3);
-//   draw(4);
+//   draw5(2);
+//   draw5(3);
+//   draw5(4);
 
 // console.log('------2.6-OK-------')
-// const draw = function (n) {
+// const draw6 = function (n) {
 //     let text = "";
 //     for (let i = 0; i < n; i++) {
 //       for (let j = 0; j < n; j++) {
@@ -133,12 +133,12 @@
 //     console.log(text);
 //   };
 
-//   draw(2);
-//   draw(3);
-//   draw(4);
+//   draw6(2);
+//   draw6(3);
+//   draw6(4);
 
 // console.log("----2.7-OK----");
-// const draw = function (n){
+// const draw7 = function (n){
 //   let text = "";
 //   for (let i = 0; i < n; i++) {
 //     for (let j = 0; j < n; j++) {
@@ -155,7 +155,7 @@
 //       if (j >= i + 1) {
 //         text += "*";
 //       } else {
-//         text += "-   ";
+//         text += "-";
 //       }
 //     }
 //     text += "\n";
@@ -166,8 +166,9 @@
 // draw7(3);
 // draw7(4);
 
+
 // console.log("----2.8--OK--");
-// const draw = function(n) {
+// const draw8 = function(n) {
 //   let text = "";
 //   let num1 = 1;
 //   // First half
@@ -195,12 +196,12 @@
 //   }
 //   console.log(text);
 // }
-// draw(2);
-// draw(3);
-// draw(4);
+// draw8(2);
+// draw8(3);
+// draw8(4);
 
 // console.log("----2.9-OK----");
-// const draw = function (n){
+// const draw9 = function (n){
 //   let text = "";
 //   for (let i = 0; i < n; i++) {
 //     for (let j = 0; j < n * 2 - 1; j++) {
@@ -215,12 +216,12 @@
 
 //   console.log(text);
 // };
-// draw(2);
-// draw(3);
-// draw(4);
+// draw9(2);
+// draw9(3);
+// draw9(4);
 
 // console.log('-----2.10--OK---')
-// const draw = function (n) {
+// const draw10 = function (n) {
 //     let text = "";
 //     for (let i = n; i >= 1; i--) {
 //       for (let j = 1; j <= n - 1 + i; j++) {
@@ -243,6 +244,6 @@
 //         }
 //         console.log(text);
 //   };
-//   draw2(2);
-//   draw2(3);
-//   draw2(4);
+//   draw10(2);
+//   draw10(3);
+//   draw10(4);
